@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://gethands.nl/contact
+    about: Report vulnerabilities and authorization or privacy problems privately.
+  - name: Hands Discord
+    url: https://discord.gg/RNDB3Qz5Zk
+    about: Discuss public developer workflows with the community.

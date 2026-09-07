@@ -1,0 +1,46 @@
+name: Builder use case
+description: Propose a concrete Connector, Sage, Custom Hand, discovery, Marketplace, or provider workflow.
+title: "use case: "
+labels: [use-case]
+body:
+  - type: dropdown
+    id: path
+    attributes:
+      label: Builder path
+      options:
+        - Connector
+        - Sage definition
+        - Custom Hand profile
+        - Semantic skill or Tools Discovery Graph
+        - Sage Marketplace
+        - Inference provider
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What should a builder or user be able to finish?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Completion evidence
+      description: What observable result would prove the workflow works?
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Permissions and boundaries
+      description: Note required data, accounts, recipients, spending, locality, destructive actions, and approvals.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: This proposal contains no credentials, personal data, tenant content, or private source.
+          required: true

